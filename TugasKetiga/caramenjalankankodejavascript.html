@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar JavaScript di Jti.polije</title>
+        <script type="text/javascript">/*program java script yang menunjukkan bahwa html ini 
+        menggunakan javascript dengan tag <script> */
+            function tambah_semangat(){ /*informasi mendetail tentang fungsi fungsi pada javascript*/
+                var a=document.getElementById("div_semangat"); /*variabel diisi berbagai macam nilai*/
+                a.innerHTML+="<p>Sedang Belajar JavaScript, Semangat!!!</p>";
+            }
+        </script>
+    </head>
+
+    <!--untuk isi dari html ini-->
+    <body>
+        <h1>Belajar JavaScript</h1><!--menggunakan heading 1 untuk judul didalam isi html-->
+        <p>Saya sedang belajar JavaScript di jti.polije.com</p><!--ditambah paragraf-->
+        Klik tombol ini untuk menambah kalimat baru:
+        <button id="tambah" onclick="tambah_semangat()">Semangat!!! <!--fungsi tag button adalah untuk menambah 
+        tombol di dalam isian html ini dengan memanggil id tambah -->
+        </button>
+
+        <div id="div_semangat"></div>
+    </body>
+</html>

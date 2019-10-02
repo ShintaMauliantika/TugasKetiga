@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;
+        charset=UTF-8"/>
+        <title>Belajar JavaScript</title>
+
+        <script>/*program java script yang menunjukkan bahwa html ini 
+            menggunakan javascript dengan tag <script>*/
+            window.onload=function()
+            {
+                var hasil;/* menggunakan variabel hasil*/
+                hasil = 1+3+5+7+9;/*hasil di beri angka dan angka tersebut di tambah*/
+                document.getElementById("tempat_hasil").innerHTML=hasil;/*berfungsi untuk mencari elemen html yang memiliki atribut id yang di inputkan dalam tanda kurung*/
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Belajar JavaScript</h1>
+        <p>Saya sedang belajar javaScript di jti.polije.com</p>
+        <div id="tempat_hasil"></div>
+    </body>
+</html>

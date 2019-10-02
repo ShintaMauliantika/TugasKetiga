@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;
+        charset=UTF-8"/> <!--memberi informasi terhadap browser dan search engine untuk melakukan 
+            pengkodean karakter sesuai ketentuan conten-type, text/html, dan utf-8-->
+        <title>Belajar JavaScript</title><!--judul browser pada html ini -->
+
+        <script>/*program java script yang menunjukkan bahwa html ini 
+                menggunakan javascript dengan tag <script> */
+        window.onload=function()
+        {/*berfungsi untuk mencari elemen html yang memiliki atribut id yang di inputkan dalam tanda kurung*/
+            var a=document.getElementById("div_semangat");
+            a.innerHTML="<p> Sedang Belajar JavaScript, Semangat!!!<p>";
+        }
+        </script>
+    </head>
+
+    <!--untuk isi dari html ini-->
+    <body>
+        <h1>Belajar JavaScript</h1><!--menggunakan heading 1 untuk judul didalam isi html-->
+        <p>Saya sedang belajar JavaScript di jti.polije.com</p><!--ditambah paragraf-->
+        <div id="div_semangat"></div> <!--merupakan elemen id-->
+    </body>
+</html>

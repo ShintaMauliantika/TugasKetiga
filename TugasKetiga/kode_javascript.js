@@ -1,0 +1,1 @@
+alert("Hello World!!") //berisi perintah untuk menampilkan kotak pesan yang biasanya berisi keterangan, namun hanya 1 pilihan
